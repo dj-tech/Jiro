@@ -1,7 +1,10 @@
 <html>
 <script>
- var x = prompt ("come stai?");
- var y = "tu stai" + x ;
- alert (y);
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+}
 </script>
 </html>
